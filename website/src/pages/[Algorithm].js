@@ -5,8 +5,7 @@ import ReadmePreview from "../components/readmepreview/ReadmePreview";
 import "../css/[Algorithm].css";
 
 function Algorithm({ data }) {
-  let url =
-    "https://raw.githubusercontent.com/kamran1819g/algopedia/main";
+  let url = "https://raw.githubusercontent.com/kamran1819g/algopedia/main";
   return (
     <Container>
       <Row>
@@ -71,12 +70,7 @@ function Algorithm({ data }) {
                 </Col>
               </Row>
             </Tab.Container>
-            <ReadmePreview
-              readmeRawUrl={
-                "https://raw.githubusercontent.com/Kamran1819G/AlgorithmsLibrary/main" +
-                data.readme
-              }
-            />
+            <ReadmePreview readmeRawUrl={url + data.readme} />
           </div>
         </Col>
       </Row>
