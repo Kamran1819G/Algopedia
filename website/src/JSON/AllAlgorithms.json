@@ -2,6 +2,7 @@
     {
         "title": "array",
         "name" : "Array",
+        "url": "/algorithm/array",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/Array.md",
         "c_path": "/DataStructures/C/Array.c",
@@ -12,6 +13,7 @@
     {
         "title": "2d-array",
         "name" : "2D Array",
+        "url": "/algorithm/2d-array",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/2D-Array.md",
         "c_path": "/DataStructures/C/2D-Array.c",
@@ -22,6 +24,7 @@
     {
         "title": "linked-list",
         "name" : "Linked List",
+        "url": "/algorithm/linked-list",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/LinkedList.md",
         "c_path": "/DataStructures/C/LinkedList.c",
@@ -32,6 +35,7 @@
     {
         "title": "singly-linked-list",
         "name" : "Singly Linked List",
+        "url": "/algorithm/singly-linked-list",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/SinglyLinkedList.md",
         "c_path": "/DataStructures/C/SinglyLinkedList.c",
@@ -42,6 +46,7 @@
     {
         "title": "doubly-linked-list",
         "name" : "Doubly Linked List",
+        "url": "/algorithm/doubly-linked-list",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/DoublyLinkedList.md",
         "c_path": "/DataStructures/C/DoublyLinkedList.c",
@@ -52,6 +57,7 @@
     {
         "title": "stack",
         "name" : "Stack",
+        "url": "/algorithm/stack",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/Stack.md",
         "c_path": "/DataStructures/C/Stack.c",
@@ -62,6 +68,7 @@
     {
         "title": "stack-using-linkedlist",
         "name" : "Stack Using Linked List",
+        "url": "/algorithm/stack-using-linkedlist",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/StackUsingLinkedList.md",
         "c_path": "/DataStructures/C/StackUsingLinkedList.c",
@@ -72,6 +79,7 @@
     {
         "title": "queue",
         "name" : "Queue",
+        "url": "/algorithm/queue",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/Queue.md",
         "c_path": "/DataStructures/C/Queue.c",
@@ -82,6 +90,7 @@
     {
         "title": "queue-using-linkedlist",
         "name" : "Queue Using Linked List",
+        "url": "/algorithm/queue-using-linkedlist",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/QueueUsingLinkedList.md",
         "c_path": "/DataStructures/C/QueueUsingLinkedList.c",
@@ -92,6 +101,7 @@
     {
         "title": "circular-queue",
         "name" : "Circular Queue",
+        "url": "/algorithm/circular-queue",
         "category": "Data Structures",
         "readme": "/DataStructures/Notes/CircularQueue.md",
         "c_path": "/DataStructures/C/CircularQueue.c",
@@ -102,6 +112,7 @@
     {
         "title": "bubble-sort",
         "name" : "Bubble Sort",
+        "url": "/algorithm/bubble-sort",
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/BubbleSort.md",
         "c_path": "/Algorithms/Sorts/C/BubbleSort.c",
@@ -113,6 +124,7 @@
     {
         "title": "insertion-sort",
         "name" : "Insertion Sort",
+        "url": "/algorithm/insertion-sort",
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/InsertionSort.md",
         "c_path": "/Algorithms/Sorts/C/InsertionSort.c",   
@@ -124,6 +136,7 @@
     {
         "title": "merge-sort",
         "name" : "Merge Sort",
+        "url": "/algorithm/merge-sort",
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/MergeSort.md",
         "c_path": "/Algorithms/Sorts/C/MergeSort.c",
@@ -135,6 +148,7 @@
     {
         "title": "quick-sort",
         "name" : "Quick Sort",
+        "url": "/algorithm/quick-sort",
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/QuickSort.md",
         "c_path": "/Algorithms/Sorts/C/QuickSort.c",
@@ -146,6 +160,7 @@
     {
         "title": "selection-sort",
         "name" : "Selection Sort",
+        "url": "/algorithm/selection-sort",
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/SelectionSort.md",
         "c_path": "/Algorithms/Sorts/C/SelectionSort.c",
@@ -157,6 +172,7 @@
     {
         "title": "binary-search",
         "name" : "Binary Search",
+        "url": "/algorithm/binary-search",
         "category": "Searches",
         "readme": "/Algorithms/Searches/Notes/BinarySearch.md",
         "c_path": "/Algorithms/Searches/C/BinarySearch.c",
@@ -168,6 +184,7 @@
     {
         "title": "linear-search",
         "name" : "Linear Search",
+        "url": "/algorithm/linear-search",
         "category": "Searches",
         "readme": "/Algorithms/Searches/Notes/LinearSearch.md",
         "c_path": "/Algorithms/Searches/C/LinearSearch.c",
