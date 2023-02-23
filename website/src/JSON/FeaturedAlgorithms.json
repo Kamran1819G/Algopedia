@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Binary Search",
+        "category": "Searching",
+        "url": "/algorithm/binary-search"
+    },
+    {
+        "id": 2,
+        "title": "Linear Search",
+        "category": "Searching",
+        "url": "/algorithm/linear-search"
+    },
+    {
+        "id": 3,
+        "title": "Bubble Sort",
+        "category": "Sorting",
+        "url": "/algorithm/bubble-sort"
+    },
+    {
+        "id": 4,
+        "title": "Insertion Sort",
+        "category": "Sorting",
+        "url": "/algorithm/insertion-sort"
+    }
+]

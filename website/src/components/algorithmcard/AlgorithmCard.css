@@ -1,0 +1,30 @@
+.card {
+  position: relative;
+  width: 16rem;
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 22px;
+  color: var(--secondary-color);
+}
+.card-btn {
+  position: absolute;
+  right: 0px;
+  background-color: var(--bs-primary);
+  border-radius: 20px;
+}
+.card-btn:hover {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+}
+.card-btn a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.card-btn a:hover {
+  color: var(--secondary-color);
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}

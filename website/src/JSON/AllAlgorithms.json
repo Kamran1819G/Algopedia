@@ -1,0 +1,179 @@
+[
+    {
+        "title": "array",
+        "name" : "Array",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/Array.md",
+        "c_path": "/DataStructures/C/Array.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/Array.java",
+        "python_path": ""
+    },
+    {
+        "title": "2d-array",
+        "name" : "2D Array",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/2D-Array.md",
+        "c_path": "/DataStructures/C/2D-Array.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/2D-Array.java",
+        "python_path": ""
+    },
+    {
+        "title": "linked-list",
+        "name" : "Linked List",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/LinkedList.md",
+        "c_path": "/DataStructures/C/LinkedList.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/LinkedList.java",
+        "python_path": ""
+    },
+    {
+        "title": "singly-linked-list",
+        "name" : "Singly Linked List",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/SinglyLinkedList.md",
+        "c_path": "/DataStructures/C/SinglyLinkedList.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/SinglyLinkedList.java",
+        "python_path": ""
+    },
+    {
+        "title": "doubly-linked-list",
+        "name" : "Doubly Linked List",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/DoublyLinkedList.md",
+        "c_path": "/DataStructures/C/DoublyLinkedList.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/DoublyLinkedList.java",
+        "python_path": ""
+    },
+    {
+        "title": "stack",
+        "name" : "Stack",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/Stack.md",
+        "c_path": "/DataStructures/C/Stack.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/Stack.java",
+        "python_path": "/DataStructures/Python/Stack.py"
+    },
+    {
+        "title": "stack-using-linkedlist",
+        "name" : "Stack Using Linked List",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/StackUsingLinkedList.md",
+        "c_path": "/DataStructures/C/StackUsingLinkedList.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/StackUsingLinkedList.java",
+        "python_path": ""
+    },
+    {
+        "title": "queue",
+        "name" : "Queue",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/Queue.md",
+        "c_path": "/DataStructures/C/Queue.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/Queue.java",
+        "python_path": ""
+    },
+    {
+        "title": "queue-using-linkedlist",
+        "name" : "Queue Using Linked List",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/QueueUsingLinkedList.md",
+        "c_path": "/DataStructures/C/QueueUsingLinkedList.c",
+        "cpp_path": "",
+        "java_path":"/DataStructures/Java/QueueUsingLinkedList.java",
+        "python_path": ""
+    },
+    {
+        "title": "circular-queue",
+        "name" : "Circular Queue",
+        "category": "Data Structures",
+        "readme": "/DataStructures/Notes/CircularQueue.md",
+        "c_path": "/DataStructures/C/CircularQueue.c",
+        "cpp_path": "",
+        "java_path":"",
+        "python_path": ""
+    },
+    {
+        "title": "bubble-sort",
+        "name" : "Bubble Sort",
+        "category": "Sorts",
+        "readme": "/Algorithms/Sorts/Notes/BubbleSort.md",
+        "c_path": "/Algorithms/Sorts/C/BubbleSort.c",
+        "cpp_path": "",
+        "java_path":"/Algorithms/Sorts/Java/BubbleSort.java",
+        "python_path":"",
+        "javascript_path":""
+    },
+    {
+        "title": "insertion-sort",
+        "name" : "Insertion Sort",
+        "category": "Sorts",
+        "readme": "/Algorithms/Sorts/Notes/InsertionSort.md",
+        "c_path": "/Algorithms/Sorts/C/InsertionSort.c",   
+        "cpp_path": "",
+        "java_path":"/Algorithms/Sorts/Java/InsertionSort.java",
+        "python_path":"",
+        "javascript_path":""
+    },
+    {
+        "title": "merge-sort",
+        "name" : "Merge Sort",
+        "category": "Sorts",
+        "readme": "/Algorithms/Sorts/Notes/MergeSort.md",
+        "c_path": "/Algorithms/Sorts/C/MergeSort.c",
+        "cpp_path": "",
+        "java_path":"/Algorithms/Sorts/Java/MergeSort.java",
+        "python_path":"",
+        "javascript_path":""
+    },
+    {
+        "title": "quick-sort",
+        "name" : "Quick Sort",
+        "category": "Sorts",
+        "readme": "/Algorithms/Sorts/Notes/QuickSort.md",
+        "c_path": "/Algorithms/Sorts/C/QuickSort.c",
+        "cpp_path": "",
+        "java_path":"/Algorithms/Sorts/Java/QuickSort.java",
+        "python_path":"",
+        "javascript_path":""
+    },
+    {
+        "title": "selection-sort",
+        "name" : "Selection Sort",
+        "category": "Sorts",
+        "readme": "/Algorithms/Sorts/Notes/SelectionSort.md",
+        "c_path": "/Algorithms/Sorts/C/SelectionSort.c",
+        "cpp_path": "",
+        "java_path":"/Algorithms/Sorts/Java/SelectionSort.java",
+        "python_path":"",
+        "javascript_path":""
+    },
+    {
+        "title": "binary-search",
+        "name" : "Binary Search",
+        "category": "Searches",
+        "readme": "/Algorithms/Searches/Notes/BinarySearch.md",
+        "c_path": "/Algorithms/Searches/C/BinarySearch.c",
+        "cpp_path": "",
+        "java_path":"/Algorithms/Searches/Java/BinarySearch.java",
+        "python_path":"",
+        "javascript_path":""
+    },
+    {
+        "title": "linear-search",
+        "name" : "Linear Search",
+        "category": "Searches",
+        "readme": "/Algorithms/Searches/Notes/LinearSearch.md",
+        "c_path": "/Algorithms/Searches/C/LinearSearch.c",
+        "cpp_path": "",
+        "java_path":"/Algorithms/Searches/Java/LinearSearch.java",
+        "python_path":"",
+        "javascript_path":""
+    }
+]

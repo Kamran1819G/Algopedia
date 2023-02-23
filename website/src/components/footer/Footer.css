@@ -1,0 +1,46 @@
+.footer-container {
+  margin: 100px auto 0 auto;
+  padding: 10px auto;
+  border-radius: 22px;
+  border: #fff 2px solid;
+  background-color: var(--primary-color);
+}
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 30px auto 10px auto;
+}
+.footer-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 10px auto 50px auto;
+}
+.footer-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 10px auto 50px auto;
+}
+.product-items {
+  list-style-type: none;
+}
+.product-item {
+  margin: 10px auto 10px 100px;
+  text-align: justify;
+}
+.product-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.footer-social-icons {
+  margin: 10px auto;
+}
+.footer-social-icon {
+  display: inline-flex;
+}
+.footer-social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}

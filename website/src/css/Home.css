@@ -1,0 +1,41 @@
+.landing-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 10px auto;
+}
+.landing-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 10px auto 50px auto;
+}
+.form-floating {
+  color: var(--secondary-color);
+}
+.search-btn {
+  margin-left: 5px;
+  padding: 5px 20px;
+  border-radius: 12px;
+}
+.popular-algorithms-section {
+  margin: 50px auto;
+}
+.latest-algorithms-section {
+  margin: 50px auto;
+}
+@media (max-width: 768px) {
+  .landing-title {
+    font-size: 2rem;
+  }
+  .landing-subtitle {
+    font-size: 1rem;
+  }
+  .search-btn {
+    padding: 5px 10px;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .card {
+    margin: 20px auto;
+  }
+}

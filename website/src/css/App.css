@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #282828;
+  --secondary-color: #fff;
+}
+body {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+
+.h-100vh {
+  height: 100vh !important;
+}
+
+section {
+  margin: 50px auto;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0px auto 50px auto;
+}
+.form-control {
+  background-color: #272626 !important;
+  color: var(--secondary-color) !important;
+}

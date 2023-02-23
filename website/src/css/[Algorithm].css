@@ -1,0 +1,7 @@
+.algorithm-page {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 22px;
+  margin: 50px 0px;
+  padding: 20px 30px;
+}
