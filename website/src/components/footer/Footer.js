@@ -9,7 +9,7 @@ function Footer() {
         <Container className="footer-container">
           <Row className="d-flex justify-content-around">
             <Col lg="4" className="footer-about">
-              <h3 className="footer-title">Algorithms Library</h3>
+              <h3 className="footer-title">Algopedia</h3>
               <p className="footer-subtitle">
                 GitHub's largest open-source algorithm library
               </p>
@@ -68,7 +68,7 @@ function Footer() {
           <Row>
             <Col lg="12" className="text-center">
               <p className="footer-text">
-                © 2023 Algorithms Library. All rights reserved.
+                © 2023 Algopedia. All rights reserved.
               </p>
             </Col>
           </Row>
