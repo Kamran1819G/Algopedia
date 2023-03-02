@@ -34,6 +34,8 @@ function ReadmePreview({ readmePath }) {
                 "https://github.com/Kamran1819G/Algopedia/tree/main" +
                 readmePath
               }
+              rel="noreferrer"
+              target="_blank"
             >
               <i className="bi bi-git"></i> Make a contribution
             </a>
