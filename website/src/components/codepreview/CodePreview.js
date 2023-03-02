@@ -15,23 +15,24 @@ import "prismjs/plugins/match-braces/prism-match-braces.min.css";
 import "prismjs/plugins/line-numbers/prism-line-numbers.min.css";
 import "prismjs/plugins/line-numbers/prism-line-numbers.min";
 
-const CodePreview = ({ codeRawUrl, language }) => {
+const CodePreview = ({ codePath, language }) => {
   const [code, setCode] = useState("");
   useEffect(() => {
     Prism.highlightAll(code);
   }, [code]);
 
+  const codeRawUrl =
+    "https://raw.githubusercontent.com/kamran1819g/algopedia/main" + codePath;
+
   useEffect(() => {
     fetch(codeRawUrl, {
       headers: {
-          'Accept': 'text/plain'
-        }
-      })
+        Accept: "text/plain",
+      },
+    })
       .then((response) => response.text())
       .then((text) => setCode(text));
   }, [codeRawUrl]);
-
-
 
   return (
     <Container fluid="lg">

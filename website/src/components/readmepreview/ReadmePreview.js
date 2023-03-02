@@ -1,9 +1,11 @@
-import React,{useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {marked} from "marked";
+import { marked } from "marked";
 
-function ReadmePreview({ readmeRawUrl }) {
-  const [readme, setReadme] = useState('');
+function ReadmePreview({ readmePath }) {
+  const [readme, setReadme] = useState("");
+  const readmeRawUrl =
+    "https://raw.githubusercontent.com/Kamran1819G/Algopedia/main" + readmePath;
   useEffect(() => {
     fetch(readmeRawUrl)
       .then((response) => response.text())
@@ -22,8 +24,19 @@ function ReadmePreview({ readmeRawUrl }) {
       <Row>
         <Col lg="12">
           <div className="readme-preview">
-            <h3 className="">About this Algorithm:</h3>
+            <h2 className="mt-4 mb-4">Learn about this algorithm:</h2>
             <div id="readme"></div>
+          </div>
+          <div className="d-flex justify-content-end">
+            <a
+              className="btn btn-primary"
+              href={
+                "https://github.com/Kamran1819G/Algopedia/tree/main" +
+                readmePath
+              }
+            >
+              <i className="bi bi-git"></i> Make a contribution
+            </a>
           </div>
         </Col>
       </Row>

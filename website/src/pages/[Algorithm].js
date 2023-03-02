@@ -5,7 +5,6 @@ import ReadmePreview from "../components/readmepreview/ReadmePreview";
 import "../css/[Algorithm].css";
 
 function Algorithm({ data }) {
-  let url = "https://raw.githubusercontent.com/kamran1819g/algopedia/main";
   return (
     <Container>
       <Row>
@@ -37,32 +36,23 @@ function Algorithm({ data }) {
                     <h4>Category: {data.category}</h4>
                     <h1>{data.name}</h1>
                     <Tab.Pane eventKey="c_lang">
-                      <CodePreview
-                        codeRawUrl={url + data.c_path}
-                        language="c"
-                      />
+                      <CodePreview codePath={data.c_path} language="c" />
                     </Tab.Pane>
                     <Tab.Pane eventKey="cpp_lang">
-                      <CodePreview
-                        codeRawUrl={url + data.cpp_path}
-                        language="cpp"
-                      />
+                      <CodePreview codePath={data.cpp_path} language="cpp" />
                     </Tab.Pane>
                     <Tab.Pane eventKey="java_lang">
-                      <CodePreview
-                        codeRawUrl={url + data.java_path}
-                        language="java"
-                      />
+                      <CodePreview codePath={data.java_path} language="java" />
                     </Tab.Pane>
                     <Tab.Pane eventKey="python_lang">
                       <CodePreview
-                        codeRawUrl={url + data.python_path}
+                        codePath={data.python_path}
                         language="python"
                       />
                     </Tab.Pane>
                     <Tab.Pane eventKey="javascript_lang">
                       <CodePreview
-                        codeRawUrl={url + data.javascript_path}
+                        codePath={data.javascript_path}
                         language="javascript"
                       />
                     </Tab.Pane>
@@ -70,7 +60,7 @@ function Algorithm({ data }) {
                 </Col>
               </Row>
             </Tab.Container>
-            <ReadmePreview readmeRawUrl={url + data.readme} />
+            <ReadmePreview readmePath={data.readme} />
           </div>
         </Col>
       </Row>
