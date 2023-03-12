@@ -22,6 +22,10 @@
 
 10. **Merge your changes**: Once your changes have been reviewed and approved, they can be merged into the original Algopedia repository by the maintainers.
 
+### **Note**: 
+1. Make sure you have add your allgorithm file path inside `./website/src/JSON/AllAlgorithms.json` to display changes on website.
+2. Make sure every `title` in AllAlgorithms.json should be unique.
+
 # **Data Structure & Algorithms 📈**
 
 ### What is Data Structure?<br>
