@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState, useEffect} from "react";
 import { Route, Routes } from "react-router-dom";
 
 import "./css/App.css";
@@ -18,7 +18,15 @@ import Algorithm from "./pages/[Algorithm]";
 
 function App() {
   const [show, setShow] = useState(true);
-  const Algorithms  = "https://api.github.com/repos/Kamran1819G/Algopedia/contents/Algorithms.json";
+  const [Algorithms, setAlgorithms] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('https://raw.githubusercontent.com/Kamran1819G/Algopedia/main/Algorithms.json');
+      const json = await response.json();
+      setAlgorithms(json);
+    };
+    fetchData();
+  }, []);
   return (
     <>
       <Navbar />

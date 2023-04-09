@@ -1,13 +1,37 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "../css/Home.css";
 import AlgorithmCard from "../components/algorithmcard/AlgorithmCard";
 import { Container, Row, Col } from "react-bootstrap";
 import SearchBar from "../components/searchsystem/SearchBar";
 function Home() {
   const [results, setResults] = useState([]);
-  const Algorithms = "https://api.github.com/repos/Kamran1819G/Algopedia/contents/Algorithms.json";
-  const PopularAlgorithms = "https://api.github.com/repos/Kamran1819G/Algopedia/contents/PopularAlgorithms.json";
-  const FeaturedAlgorithms = "https://api.github.com/repos/Kamran1819G/Algopedia/contents/FeaturedAlgorithms.json";
+  const [Algorithms, setAlgorithms] = useState([]);
+  const [PopularAlgorithms, setPopularAlgorithms] = useState([]);
+  const [FeaturedAlgorithms, setFeaturedAlgorithms] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('https://raw.githubusercontent.com/Kamran1819G/Algopedia/main/Algorithms.json');
+      const json = await response.json();
+      setAlgorithms(json);
+    };
+    fetchData();
+  }, []);
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('https://raw.githubusercontent.com/Kamran1819G/Algopedia/main/PopularAlgorithms.json');
+      const json = await response.json();
+      setPopularAlgorithms(json);
+    };
+    fetchData();
+  }, []);
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('https://raw.githubusercontent.com/Kamran1819G/Algopedia/main/FeaturedAlgorithms.json');
+      const json = await response.json();
+      setFeaturedAlgorithms(json);
+    };
+    fetchData();
+  }, []);
   const handleSearch = (query) => {
     if (query.length >= 2) {
       const matchedResults = Algorithms.filter((algorithm) =>
