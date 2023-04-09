@@ -15,11 +15,10 @@ import About from "./pages/About";
 import ReportIssue from "./pages/ReportIssue";
 import PageNotFound from "./pages/404-PageNotFound";
 import Algorithm from "./pages/[Algorithm]";
-import AllAlgorithms from "./JSON/AllAlgorithms.json";
-
 
 function App() {
   const [show, setShow] = useState(true);
+  const Algorithms  = "https://api.github.com/repos/Kamran1819G/Algopedia/contents/Algorithms.json";
   return (
     <>
       <Navbar />
@@ -42,7 +41,7 @@ function App() {
         <Route path="/report" element={<ReportIssue />} />
         <Route path="*" element={<PageNotFound />} />
         {
-          AllAlgorithms.map(algorithm => (
+          Algorithms.map(algorithm => (
               <Route
                 key={algorithm.title}
                 path={`/algorithm/${algorithm.title}`}

@@ -2,16 +2,15 @@ import React, { useState } from "react";
 import "../css/Home.css";
 import AlgorithmCard from "../components/algorithmcard/AlgorithmCard";
 import { Container, Row, Col } from "react-bootstrap";
-import PopularAlgorithms from "../JSON/PopularAlgorithms.json";
-import FeaturedAlgorithms from "../JSON/FeaturedAlgorithms.json";
-import AllAlgorithms from "../JSON/AllAlgorithms.json";
 import SearchBar from "../components/searchsystem/SearchBar";
 function Home() {
   const [results, setResults] = useState([]);
-
+  const Algorithms = "https://api.github.com/repos/Kamran1819G/Algopedia/contents/Algorithms.json";
+  const PopularAlgorithms = "https://api.github.com/repos/Kamran1819G/Algopedia/contents/PopularAlgorithms.json";
+  const FeaturedAlgorithms = "https://api.github.com/repos/Kamran1819G/Algopedia/contents/FeaturedAlgorithms.json";
   const handleSearch = (query) => {
     if (query.length >= 2) {
-      const matchedResults = AllAlgorithms.filter((algorithm) =>
+      const matchedResults = Algorithms.filter((algorithm) =>
         algorithm.name.toLowerCase().includes(query.toLowerCase())
       );
       setResults(matchedResults);
