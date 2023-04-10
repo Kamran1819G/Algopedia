@@ -116,7 +116,7 @@
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/BubbleSort.md",
         "c_path": "/Algorithms/Sorts/C/BubbleSort.c",
-        "cpp_path": "",
+        "cpp_path": "/Algorithms/Sorts/Cpp/BubbleSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/BubbleSort.java",
         "python_path":"",
         "javascript_path":""
