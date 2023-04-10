@@ -116,7 +116,7 @@
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/BubbleSort.md",
         "c_path": "/Algorithms/Sorts/C/BubbleSort.c",
-        "cpp_path": "",
+        "cpp_path": "/Algorithms/Sorts/Cpp/BubbleSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/BubbleSort.java",
         "python_path":"",
         "javascript_path":""
@@ -128,7 +128,7 @@
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/InsertionSort.md",
         "c_path": "/Algorithms/Sorts/C/InsertionSort.c",   
-        "cpp_path": "",
+        "cpp_path": "/Algorithms/Sorts/Cpp/InsertionSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/InsertionSort.java",
         "python_path":"",
         "javascript_path":""
@@ -164,7 +164,7 @@
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/SelectionSort.md",
         "c_path": "/Algorithms/Sorts/C/SelectionSort.c",
-        "cpp_path": "",
+        "cpp_path": "/Algorithms/Sorts/Cpp/SelectionSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/SelectionSort.java",
         "python_path":"",
         "javascript_path":""
