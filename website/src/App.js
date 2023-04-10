@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from "react";
 import { Route, Routes } from "react-router-dom";
+import ReactGA from "react-ga";
 
 import "./css/App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -9,12 +10,17 @@ import Alert from "react-bootstrap/Alert";
 import Navbar from "./components/NavbarComponent";
 import Footer from "./components/footer/Footer";
 import ParticlesBackground from "./components/particles/ParticlesBackground";
+import RouteChangeTracker from "./components/routechangetracker/RouteChangeTracker";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
 import ReportIssue from "./pages/ReportIssue";
 import PageNotFound from "./pages/404-PageNotFound";
 import Algorithm from "./pages/[Algorithm]";
+
+const trackingId = "G-0GC47WHF6L"; //Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   const [show, setShow] = useState(true);
@@ -29,6 +35,7 @@ function App() {
   }, []);
   return (
     <>
+      <RouteChangeTracker />
       <Navbar />
       <Alert
         show={show}
