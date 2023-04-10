@@ -20,7 +20,6 @@ import Algorithm from "./pages/[Algorithm]";
 
 const trackingId = "G-0GC47WHF6L"; //Google Analytics tracking ID
 ReactGA.initialize(trackingId);
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   const [show, setShow] = useState(true);
