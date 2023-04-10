@@ -21,5 +21,5 @@
 10. **Merge your changes**: Once your changes have been reviewed and approved, they can be merged into the original Algopedia repository by the maintainers.
 
 ### **Note**: 
-1. Make sure you have add your allgorithm file path inside `./Algorithms.json` to display changes on website.
+1. Make sure you have add your algorithm file path inside `./Algorithms.json` to display changes on website.
 2. Make sure every `title` in AllAlgorithms.json should be unique.
