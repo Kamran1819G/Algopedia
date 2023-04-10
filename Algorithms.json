@@ -164,7 +164,7 @@
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/SelectionSort.md",
         "c_path": "/Algorithms/Sorts/C/SelectionSort.c",
-        "cpp_path": "",
+        "cpp_path": "/Algorithms/Sorts/Cpp/SelectionSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/SelectionSort.java",
         "python_path":"",
         "javascript_path":""
