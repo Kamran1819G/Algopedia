@@ -6,19 +6,19 @@
 
 ### What is Data Structure?<br>
 
-> A data structure is a way to store and organize data in memory in order to facilitate access and modifications.
+A data structure is a way to store and organize data in memory in order to facilitate access and modifications.
 
 ### What is Algorithms? <br>
 
-> An algorithm is a collection of steps to solve a particular problem.
+- An algorithm is a collection of steps to solve a particular problem.
 
 ### **Characteristics of a Data Structure**
 
-> **Correctness** − Data structure implementation should implement its interface correctly.
+- **Correctness** − Data structure implementation should implement its interface correctly.
 
-> **Time Complexity** − Running time or the execution time of operations of data structure must be as small as possible
+- **Time Complexity** − Running time or the execution time of operations of data structure must be as small as possible
 
->**Space Complexity** − Memory usage of a data structure operation should be as little as possible.
+- **Space Complexity** − Memory usage of a data structure operation should be as little as possible.
 
 ## Index 📃
 
