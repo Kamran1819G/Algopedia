@@ -1,4 +1,4 @@
-# **How to Contribute?**
+# **How to Contribute? 🤝**
 
 1. **Fork the repository**: Start by forking the Algopedia repository to your own GitHub account. This will create a copy of the repository that you can work on without affecting the original.
 
@@ -20,6 +20,6 @@
 
 10. **Merge your changes**: Once your changes have been reviewed and approved, they can be merged into the original Algopedia repository by the maintainers.
 
-### **Note**: 
+### **Note❗** 
 1. Make sure you have add your algorithm file path inside `./Algorithms.json` to display changes on website.
-2. Make sure every `title` in AllAlgorithms.json should be unique.
+2. Make sure every `title` in `Algorithms.json` should be unique.
