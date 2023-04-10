@@ -128,7 +128,7 @@
         "category": "Sorts",
         "readme": "/Algorithms/Sorts/Notes/InsertionSort.md",
         "c_path": "/Algorithms/Sorts/C/InsertionSort.c",   
-        "cpp_path": "",
+        "cpp_path": "/Algorithms/Sorts/Cpp/InsertionSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/InsertionSort.java",
         "python_path":"",
         "javascript_path":""
