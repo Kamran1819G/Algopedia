@@ -1,8 +1,9 @@
-import React from "react";
+import {React} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FAQ from "../components/FAQ";
 import { Helmet } from "react-helmet";
 function About() {
+
   return (
     <>
     <Helmet>

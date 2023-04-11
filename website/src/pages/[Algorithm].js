@@ -1,6 +1,7 @@
 import {React, useState, useEffect} from "react";
 import { Helmet } from "react-helmet";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import ReactGA from "react-ga";
 import CodePreview from "../components/codepreview/CodePreview";
 import ReadmePreview from "../components/readmepreview/ReadmePreview";
 import "../css/[Algorithm].css";
@@ -21,6 +22,11 @@ function Algorithm({ data }) {
     fetchData();
   }, []);
   const handleSearch = (query) => {
+    ReactGA.event({
+      category: "Search",
+      action: "Search",
+      label: query,
+    });
     if (query.length >= 2) {
       const matchedResults = Algorithms.filter((algorithm) =>
         algorithm.name.toLowerCase().includes(query.toLowerCase())
@@ -116,7 +122,7 @@ function Algorithm({ data }) {
                 </Col>
               </Row>
             </Tab.Container>
-            <ReadmePreview readmePath={data.readme} />
+            <ReadmePreview readmePath={data.readme} readmeTitle="Learn about this algorithm:"/>
           </div>
         </Col>
       </Row>

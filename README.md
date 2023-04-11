@@ -46,6 +46,3 @@ A data structure is a way to store and organize data in memory in order to facil
     - [Quick Sort](./Algorithms/Sorts/Notes/QuickSort.md)
     - [Merge Sort](./Algorithms/Sorts/Notes/MergeSort.md)
     - [Shell Sort](./Algorithms/Sorts/Notes/ShellSort.md)
-
-<!-- link to CONTRIBUTING.md -->
-#### This repository is for educational purposes 🏫👨🏻‍🎓

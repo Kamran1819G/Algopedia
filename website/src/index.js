@@ -4,10 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import ReactGA from "react-ga";
-
-const trackingId = "G-0GC47WHF6L"; //Google Analytics tracking ID
-ReactGA.initialize(trackingId);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -4,11 +4,16 @@ import AlgorithmCard from "../components/algorithmcard/AlgorithmCard";
 import { Container, Row, Col } from "react-bootstrap";
 import SearchBar from "../components/searchsystem/SearchBar";
 import { Helmet } from "react-helmet";
+import ReactGA from 'react-ga';
+
+
 function Home() {
   const [results, setResults] = useState([]);
   const [Algorithms, setAlgorithms] = useState([]);
   const [PopularAlgorithms, setPopularAlgorithms] = useState([]);
   const [FeaturedAlgorithms, setFeaturedAlgorithms] = useState([]);
+ 
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('https://raw.githubusercontent.com/Kamran1819G/Algopedia/main/Algorithms.json');
@@ -17,6 +22,7 @@ function Home() {
     };
     fetchData();
   }, []);
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('https://raw.githubusercontent.com/Kamran1819G/Algopedia/main/PopularAlgorithms.json');
@@ -25,6 +31,7 @@ function Home() {
     };
     fetchData();
   }, []);
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('https://raw.githubusercontent.com/Kamran1819G/Algopedia/main/FeaturedAlgorithms.json');
@@ -33,7 +40,13 @@ function Home() {
     };
     fetchData();
   }, []);
+
   const handleSearch = (query) => {
+    ReactGA.event({
+      category: 'Search',
+      action: 'Search',
+      label: query
+    });
     if (query.length >= 2) {
       const matchedResults = Algorithms.filter((algorithm) =>
         algorithm.name.toLowerCase().includes(query.toLowerCase())
@@ -42,7 +55,6 @@ function Home() {
     } else {
       setResults([]);
     }
-
     if (query === "") {
       setResults([]);
     }

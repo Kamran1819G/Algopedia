@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { marked } from "marked";
 
-function ReadmePreview({ readmePath }) {
+function ReadmePreview({ readmePath,readmeTitle }) {
   const [readme, setReadme] = useState("");
   const readmeRawUrl =
     "https://raw.githubusercontent.com/Kamran1819G/Algopedia/main" + readmePath;
@@ -24,7 +24,7 @@ function ReadmePreview({ readmePath }) {
       <Row>
         <Col lg="12">
           <div className="readme-preview">
-            <h2 className="mt-4 mb-4">Learn about this algorithm:</h2>
+            <h2 className="mt-4 mb-4">{readmeTitle}</h2>
             <div id="readme"></div>
           </div>
           <div className="d-flex justify-content-end">
