@@ -34,7 +34,6 @@ function App() {
   }, []);
   return (
     <>
-      <RouteChangeTracker />
       <Navbar />
       <Alert
         show={show}
@@ -48,6 +47,7 @@ function App() {
         improve our service. In the meantime, please feel free to use our
         existing features or contact us if you have any questions.
       </Alert>
+      <RouteChangeTracker />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />

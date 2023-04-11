@@ -1,12 +1,68 @@
-import React from "react";
+import {React, useState, useEffect} from "react";
+import { Helmet } from "react-helmet";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import CodePreview from "../components/codepreview/CodePreview";
 import ReadmePreview from "../components/readmepreview/ReadmePreview";
 import "../css/[Algorithm].css";
+import AlgorithmCard from "../components/algorithmcard/AlgorithmCard";
+import SearchBar from "../components/searchsystem/SearchBar";
 
 function Algorithm({ data }) {
+  const [results, setResults] = useState([]);
+  const [Algorithms, setAlgorithms] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch(
+        "https://raw.githubusercontent.com/Kamran1819G/Algopedia/main/Algorithms.json"
+      );
+      const json = await response.json();
+      setAlgorithms(json);
+    };
+    fetchData();
+  }, []);
+  const handleSearch = (query) => {
+    if (query.length >= 2) {
+      const matchedResults = Algorithms.filter((algorithm) =>
+        algorithm.name.toLowerCase().includes(query.toLowerCase())
+      );
+      setResults(matchedResults);
+    } else {
+      setResults([]);
+    }
+
+    if (query === "") {
+      setResults([]);
+    }
+  };
   return (
+    <>
+    <Helmet>
+      <title>{data.name} | Algopedia</title>
+    </Helmet>
     <Container>
+      <Row className="mt-5">
+        <Col lg="10" className="pb-3">
+          <SearchBar onSearch={handleSearch} />
+        </Col>
+        <Col lg="12" md="12" sm="10">
+          {results.length > 0 && (
+            <Row xs={1} md={4} className="g-5">
+              {results.map((item) => {
+                return (
+                  <Col>
+                    <AlgorithmCard
+                      key={item.title}
+                      title={item.name}
+                      category={item.category}
+                      url={item.url}
+                    />
+                  </Col>
+                );
+              })}
+            </Row>
+          )}
+        </Col>
+      </Row>
       <Row>
         <Col lg="12">
           <div className="algorithm-page">
@@ -31,7 +87,7 @@ function Algorithm({ data }) {
                     </Nav.Item>
                   </Nav>
                 </Col>
-                <Col sm={9}>
+                <Col lg={9} sm={12}>
                   <Tab.Content>
                     <h4>Category: {data.category}</h4>
                     <h1>{data.name}</h1>
@@ -65,6 +121,7 @@ function Algorithm({ data }) {
         </Col>
       </Row>
     </Container>
+    </>
   );
 }
 

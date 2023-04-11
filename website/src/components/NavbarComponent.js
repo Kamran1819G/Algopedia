@@ -23,7 +23,7 @@ function NavbarComponent() {
               </Nav.Link>
             </Nav>
             <Nav className="ms-auto">
-              <Nav.Link href="https://github.com/Kamran1819G/Algopedia"  target="_blank">
+              <Nav.Link href="https://github.com/Kamran1819G/Algopedia" target="_blank">
                 <i className="bi bi-github"></i>
               </Nav.Link>
               <NavDropdown  href="#"  title={<i className="bi bi-translate"></i>}>

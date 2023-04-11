@@ -17,11 +17,11 @@ const SearchBar = ({onSearch}) => {
       <FloatingLabel
         controlId="floatingInput"
         label="Search Algorithm"
-        className="mb-5 col-lg-6 col-md-8 col-sm-10"
+        className="col-lg-12 col-md-12 col-sm-12"
       >
         <Form.Control type="text" placeholder="Search Algorithm" value={query} onChange={handleSearch}/>
       </FloatingLabel>
-      <Button className=" search-btn mb-5 p-3">
+      <Button className="search-btn p-3">
         <i className="bi bi-search"></i>
       </Button>
     </Form>

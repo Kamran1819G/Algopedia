@@ -3,6 +3,7 @@ import "../css/Home.css";
 import AlgorithmCard from "../components/algorithmcard/AlgorithmCard";
 import { Container, Row, Col } from "react-bootstrap";
 import SearchBar from "../components/searchsystem/SearchBar";
+import { Helmet } from "react-helmet";
 function Home() {
   const [results, setResults] = useState([]);
   const [Algorithms, setAlgorithms] = useState([]);
@@ -49,6 +50,9 @@ function Home() {
 
   return (
     <>
+    <Helmet>
+      <title>Algopedia | GitHub's largest open-source algorithm library</title>
+    </Helmet>
       <section className="section intro-section">
         <Container fluid="lg">
           <Row>
@@ -60,8 +64,10 @@ function Home() {
                 </h3>
               </div>
             </Col>
-            <Col lg="12">
+            <Col lg={6} sm={12} className="pb-5">
               <SearchBar onSearch={handleSearch} />
+            </Col>
+            <Col lg={12} md={12} sm={12}>
               {results.length > 0 && (
                 <Row xs={1} md={4} className="g-5">
                   {results.map((item) => {
@@ -85,7 +91,7 @@ function Home() {
       <section className="popular-algorithms-section">
         <Container fluid="lg">
           <Row>
-            <Col lg="12">
+            <Col lg={12}>
               <div className="section-title text-center">
                 <h1 className="title">Popular Algorithms</h1>
               </div>
@@ -108,7 +114,7 @@ function Home() {
       <section className="latest-algorithms-section">
         <Container fluid="lg">
           <Row>
-            <Col lg="12">
+            <Col lg={12}>
               <div className="section-title text-center">
                 <h1 className="title">Featured Algorithms</h1>
               </div>

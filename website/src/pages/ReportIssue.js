@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Button, InputGroup, Form } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 
 function ReportIssue() {
   const [validated, setValidated] = useState(false);
@@ -14,7 +15,12 @@ function ReportIssue() {
     setValidated(true);
   };
 
+  
   return (
+    <>
+    <Helmet>
+      <title>Report Issue | Algopedia</title>
+    </Helmet>
     <section className="section">
       <Container fluid="lg">
         <Row>
@@ -96,6 +102,7 @@ function ReportIssue() {
         </Row>
       </Container>
     </section>
+    </>
   );
 }
 
