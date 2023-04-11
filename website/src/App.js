@@ -17,8 +17,12 @@ import ReportIssue from "./pages/ReportIssue";
 import PageNotFound from "./pages/404-PageNotFound";
 import Algorithm from "./pages/[Algorithm]";
 
-const trackingId = 'G-0GC47WHF6L'; //Google Analytics tracking ID
-ReactGA.initialize(trackingId);
+ReactGA.initialize('G-0GC47WHF6L', {
+  titleCase: true,
+  gaOptions: {
+    siteSpeedSampleRate: 100
+  }
+});
 
 function App() {
   const [show, setShow] = useState(true);
