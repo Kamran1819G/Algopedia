@@ -170,6 +170,18 @@
         "javascript_path":""
     },
     {
+        "title": "shell-sort",
+        "name" : "Shell Sort",
+        "url": "/algorithm/shell-sort",
+        "category": "Sorts",
+        "readme": "/Algorithms/Sorts/Notes/ShellSort.md",
+        "c_path": "/Algorithms/Sorts/C/ShellSort.c",
+        "cpp_path": "/Algorithms/Sorts/Cpp/ShellSort.cpp",
+        "java_path":"/Algorithms/Sorts/Java/ShellSort.java",
+        "python_path":"",
+        "javascript_path":""
+    },
+    {
         "title": "binary-search",
         "name" : "Binary Search",
         "url": "/algorithm/binary-search",
