@@ -91,6 +91,9 @@ function Algorithm({ data }) {
                     <Nav.Item>
                       <Nav.Link eventKey="javascript_lang">JavaScript</Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="csharp_lang">C#</Nav.Link>
+                    </Nav.Item>
                   </Nav>
                 </Col>
                 <Col lg={9} sm={12}>
@@ -116,6 +119,12 @@ function Algorithm({ data }) {
                       <CodePreview
                         codePath={data.javascript_path}
                         language="javascript"
+                      />
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="csharp_lang">
+                      <CodePreview
+                          codePath={data.csharp_path}
+                          language="csharp"
                       />
                     </Tab.Pane>
                   </Tab.Content>
