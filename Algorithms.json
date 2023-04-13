@@ -169,7 +169,7 @@
         "java_path":"/Algorithms/Sorts/Java/QuickSort.java",
         "python_path":"",
         "javascript_path":"",
-        "csharp_path" : "Algorithms/Sorts/Csharp/QuickSort.cs"
+        "csharp_path" : "/Algorithms/Sorts/Csharp/QuickSort.cs"
     },
     {
         "title": "selection-sort",
@@ -182,7 +182,7 @@
         "java_path":"/Algorithms/Sorts/Java/SelectionSort.java",
         "python_path":"",
         "javascript_path":"",
-        "csharp_path" : ""
+        "csharp_path" : "/Algorithms/Sorts/Csharp/SelectionSort.cs"
     },
     {
         "title": "binary-search",
