@@ -130,7 +130,7 @@
         "java_path":"/Algorithms/Sorts/Java/BubbleSort.java",
         "python_path":"",
         "javascript_path":"",
-        "csharp_path" : ""
+        "csharp_path" : "/Algorithms/Sorts/Csharp/BubbleSort.cs"
     },
     {
         "title": "insertion-sort",
