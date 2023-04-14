@@ -194,7 +194,8 @@
         "cpp_path": "/Algorithms/Sorts/Cpp/ShellSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/ShellSort.java",
         "python_path":"",
-        "javascript_path":""
+        "javascript_path":"",
+        "csharp_path" : "/Algorithms/Sorts/Csharp/ShellSort.cs"
     },
     {
         "title": "binary-search",
