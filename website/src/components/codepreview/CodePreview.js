@@ -7,6 +7,7 @@ import "prismjs/components/prism-cpp.min.js";
 import "prismjs/components/prism-java.min.js";
 import "prismjs/components/prism-python.min.js";
 import "prismjs/components/prism-javascript.min.js";
+import "prismjs/components/prism-csharp.min";
 import "prismjs/plugins/toolbar/prism-toolbar.min.css";
 import "prismjs/plugins/toolbar/prism-toolbar.min";
 import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min";

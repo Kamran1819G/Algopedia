@@ -8,7 +8,8 @@
         "c_path": "/DataStructures/C/Array.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/Array.java",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "2d-array",
@@ -19,7 +20,8 @@
         "c_path": "/DataStructures/C/2D-Array.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/2D-Array.java",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "linked-list",
@@ -30,7 +32,8 @@
         "c_path": "/DataStructures/C/LinkedList.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/LinkedList.java",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "singly-linked-list",
@@ -41,7 +44,8 @@
         "c_path": "/DataStructures/C/SinglyLinkedList.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/SinglyLinkedList.java",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "doubly-linked-list",
@@ -52,7 +56,8 @@
         "c_path": "/DataStructures/C/DoublyLinkedList.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/DoublyLinkedList.java",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "stack",
@@ -63,7 +68,8 @@
         "c_path": "/DataStructures/C/Stack.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/Stack.java",
-        "python_path": "/DataStructures/Python/Stack.py"
+        "python_path": "/DataStructures/Python/Stack.py",
+        "csharp_path" : ""
     },
     {
         "title": "stack-using-linkedlist",
@@ -74,7 +80,8 @@
         "c_path": "/DataStructures/C/StackUsingLinkedList.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/StackUsingLinkedList.java",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "queue",
@@ -85,7 +92,8 @@
         "c_path": "/DataStructures/C/Queue.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/Queue.java",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "queue-using-linkedlist",
@@ -96,7 +104,8 @@
         "c_path": "/DataStructures/C/QueueUsingLinkedList.c",
         "cpp_path": "",
         "java_path":"/DataStructures/Java/QueueUsingLinkedList.java",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "circular-queue",
@@ -107,7 +116,8 @@
         "c_path": "/DataStructures/C/CircularQueue.c",
         "cpp_path": "",
         "java_path":"",
-        "python_path": ""
+        "python_path": "",
+        "csharp_path" : ""
     },
     {
         "title": "bubble-sort",
@@ -119,7 +129,8 @@
         "cpp_path": "/Algorithms/Sorts/Cpp/BubbleSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/BubbleSort.java",
         "python_path":"",
-        "javascript_path":""
+        "javascript_path":"",
+        "csharp_path" : "/Algorithms/Sorts/Csharp/BubbleSort.cs"
     },
     {
         "title": "insertion-sort",
@@ -131,7 +142,8 @@
         "cpp_path": "/Algorithms/Sorts/Cpp/InsertionSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/InsertionSort.java",
         "python_path":"",
-        "javascript_path":""
+        "javascript_path":"",
+        "csharp_path" : "/Algorithms/Sorts/Csharp/InsertionSort.cs"
     },
     {
         "title": "merge-sort",
@@ -143,7 +155,8 @@
         "cpp_path": "",
         "java_path":"/Algorithms/Sorts/Java/MergeSort.java",
         "python_path":"",
-        "javascript_path":""
+        "javascript_path":"",
+        "csharp_path" : ""
     },
     {
         "title": "quick-sort",
@@ -155,7 +168,8 @@
         "cpp_path": "",
         "java_path":"/Algorithms/Sorts/Java/QuickSort.java",
         "python_path":"",
-        "javascript_path":""
+        "javascript_path":"",
+        "csharp_path" : "/Algorithms/Sorts/Csharp/QuickSort.cs"
     },
     {
         "title": "selection-sort",
@@ -167,7 +181,8 @@
         "cpp_path": "/Algorithms/Sorts/Cpp/SelectionSort.cpp",
         "java_path":"/Algorithms/Sorts/Java/SelectionSort.java",
         "python_path":"",
-        "javascript_path":""
+        "javascript_path":"",
+        "csharp_path" : "/Algorithms/Sorts/Csharp/SelectionSort.cs"
     },
     {
         "title": "shell-sort",
@@ -191,7 +206,8 @@
         "cpp_path": "",
         "java_path":"/Algorithms/Searches/Java/BinarySearch.java",
         "python_path":"",
-        "javascript_path":""
+        "javascript_path":"",
+        "csharp_path" : ""
     },
     {
         "title": "linear-search",
@@ -203,6 +219,7 @@
         "cpp_path": "",
         "java_path":"/Algorithms/Searches/Java/LinearSearch.java",
         "python_path":"",
-        "javascript_path":""
+        "javascript_path":"",
+        "csharp_path" : ""
     }
 ]
