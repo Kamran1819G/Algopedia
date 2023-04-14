@@ -156,7 +156,7 @@
         "java_path":"/Algorithms/Sorts/Java/MergeSort.java",
         "python_path":"",
         "javascript_path":"",
-        "csharp_path" : ""
+        "csharp_path" : "/Algorithms/Sorts/Csharp/MergeSort.cs"
     },
     {
         "title": "quick-sort",
