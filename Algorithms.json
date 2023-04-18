@@ -208,7 +208,7 @@
         "java_path":"/Algorithms/Searches/Java/BinarySearch.java",
         "python_path":"",
         "javascript_path":"",
-        "csharp_path" : ""
+        "csharp_path" : "/Algorithms/Searches/Csharp/BinarySearch.cs"
     },
     {
         "title": "linear-search",
@@ -221,6 +221,6 @@
         "java_path":"/Algorithms/Searches/Java/LinearSearch.java",
         "python_path":"",
         "javascript_path":"",
-        "csharp_path" : ""
+        "csharp_path" : "/Algorithms/Searches/Csharp/LinearSearch.cs"
     }
 ]
