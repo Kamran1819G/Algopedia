@@ -1,18 +1,34 @@
 # Algopedia - Largest Algorithm Library 📚
 
-##  [How to Contribute ? 🤝](CONTRIBUTING.md)
+![Algopedia](https://user-images.githubusercontent.com/72748315/236678864-412c6679-01bb-4923-b5f8-200361f43c2b.png)
+
+##  How to Contribute ? 🤝
+
+If you would like to contribute to Algopedia, please see the [contribution guidelines](CONTRIBUTING.md) for more information.
 
 ## Data Structure & Algorithms 📈
 
-### What is Data Structure?<br>
+### What is Data Structure?
 
-A data structure is a way to store and organize data in memory in order to facilitate access and modifications.
+A data structure is a way to store and organize data in memory in order to facilitate access and modifications. In Algopedia, we cover a range of data structures, including:
+- Array
+- Linked List
+- Stack
+- Queue
 
-### What is Algorithms? <br>
+For each data structure, we provide a brief overview of what it is and how it works, as well as code examples to help you get started.
 
-- An algorithm is a collection of steps to solve a particular problem.
+### What is Algorithms?
+
+An algorithm is a collection of steps to solve a particular problem. In Algopedia, we cover a range of algorithms, including:
+- Searching Algorithms (e.g. Linear Search, Binary Search)
+- Sorting Algorithms (e.g. Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Shell Sort)
+
+For each algorithm, we provide a brief overview of what it is and how it works, as well as code examples to help you get started.
 
 ### **Characteristics of a Data Structure**
+
+When evaluating a data structure, there are a few key characteristics to consider:
 
 - **Correctness** − Data structure implementation should implement its interface correctly.
 
@@ -20,9 +36,10 @@ A data structure is a way to store and organize data in memory in order to facil
 
 - **Space Complexity** − Memory usage of a data structure operation should be as little as possible.
 
+
 ## Index 📃
 
-- #### [Data Structures](./DataStructures)
+- ### [Data Structures](./DataStructures)
 
   - [Array](./DataStructures/Notes/Array.md)
     - [Multi-Dimensional array](./DataStructures/Notes/Multi-DimensionalArray.md)
@@ -34,7 +51,7 @@ A data structure is a way to store and organize data in memory in order to facil
     - [Circular Linked List]()
   - [Stack](./DataStructures/Notes/Stack.md)
   - [Queue](./DataStructures/Notes/Queue.md)
-- #### [Algorithms](./Algorithms)
+- ### [Algorithms](./Algorithms)
 
   - [Searching Algorithms](./Algorithms/Searches/)
     - [Linear Search](./Algorithms/Searches/Notes/LinearSearch.md)
