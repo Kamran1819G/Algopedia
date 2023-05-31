@@ -232,9 +232,9 @@
     "python_path": "/Algorithms/Programs/Python/DataStructures.py"
   },
   {
-    "title": "Factorial Program",
+    "title": "factorial-program",
     "name": "Factorial Program",
-    "url": "/Algorithm/Factorial",
+    "url": "/algorithm/factorial",
     "category": "Programs",
     "readme": "",
     "c_path": "/Algorithms/Programs/C/Factorial.c"
@@ -245,6 +245,6 @@
     "url": "/algorithm/recursion-factorial",
     "category": "Programs",
     "readme": "",
-    "c_path": "/Algorithms/Programs/C/Factorial.c"
+    "c_path": "/Algorithms/Programs/C/FactorialRecursion.c"
   }
 ]
