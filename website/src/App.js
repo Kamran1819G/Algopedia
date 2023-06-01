@@ -18,13 +18,14 @@ import PageNotFound from "./pages/404-PageNotFound";
 import Algorithm from "./pages/[Algorithm]";
 
 
-
-
-ReactGA.initialize("G-0GC47WHF6L");
-
 function App() {
   const [show, setShow] = useState(true);
   const [Algorithms, setAlgorithms] = useState([]);
+
+  useEffect(() => {
+    ReactGA.initialize("G-0GC47WHF6L");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   useEffect(() => {
     const fetchData = async () => {

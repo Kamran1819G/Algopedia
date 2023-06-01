@@ -16,6 +16,10 @@
   background-color: var(--primary-color);
   border: 2px solid var(--secondary-color);
 }
+.card-btn:active {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+}
 .card-btn a {
   color: var(--secondary-color);
   text-decoration: none;
