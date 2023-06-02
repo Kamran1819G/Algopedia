@@ -27,7 +27,7 @@ function Algorithm({ data }) {
       action: "Search",
       label: query,
     });
-    if (query.length >= 2) {
+    if (query.length >= 1) {
       const matchedResults = Algorithms.filter((algorithm) =>
         algorithm.name.toLowerCase().includes(query.toLowerCase())
       );

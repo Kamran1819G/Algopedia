@@ -250,7 +250,7 @@
   },
   {
     "title": "best-first-search",
-    "name": "Best First Search (DFS)",
+    "name": "Best First Search (BFS)",
     "url": "/algorithm/best-first-search",
     "category": "Graphs",
     "readme": "/Algorithms/Graphs/Notes/BestFirstSearch.md",
