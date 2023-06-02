@@ -67,10 +67,10 @@ const CodePreview = ({ codePath, language }) => {
           <Col lg="12">
             <div className="code-preview">
               <pre className="line-numbers">
-                <code className={`language-text match-braces rainbow-braces`}>
-                    No Code Available in this language check other languages
-                    You can contribute to this project by adding code in this
-                    language
+                <code className={`language-css match-braces rainbow-braces`}>
+                  We don't currently have code available in this language.
+                  Please consider contributing to this project by adding code in
+                  this particular language
                 </code>
               </pre>
             </div>

@@ -5,6 +5,15 @@
   margin: 50px 0px;
   padding: 20px 30px;
 }
+pre::-webkit-scrollbar {
+  background: #3d3d3d;
+  width: 5px;
+}
+pre::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
+
 @media (max-width: 850px) {
   .nav-pills {
     flex-direction: row !important;
