@@ -1,6 +1,6 @@
 # Doubly Linked List
 
-#### A `Doubly Linked List (DLL)` contains an extra pointer, typically called previous pointer, together with next pointer and data which are there in singly linked list.
+A `Doubly Linked List (DLL)` contains an extra pointer, typically called previous pointer, together with next pointer and data which are there in singly linked list.
 
 Advantages over singly linked list
 
@@ -8,7 +8,7 @@ Advantages over singly linked list
 - The delete operation in DLL is more efficient if pointer to the node to be deleted is given.
 - We can quickly insert a new node before a given node.
 
-#### In singly linked list, to delete a node, pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using previous pointer.
+In singly linked list, to delete a node, pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using previous pointer.
 
 Disadvantages over singly linked list
 
@@ -17,30 +17,9 @@ Disadvantages over singly linked list
 
 ## Time Complexity
 
-<table>
-    <tr>
-        <th>Operation</th>	
-        <th>Average</th>
-        <th>Worst</th>
-    </tr>
-    <tr>
-        <td>Access</td>
-        <td>Θ(n)</td>
-        <td>O(n)</td>
-    </tr>
-    <tr>
-        <td>Search</td>
-        <td>Θ(n)</td>
-        <td>O(n)</td>
-    </tr>
-    <tr>
-        <td>Insertion</td>
-        <td>Θ(1)</td>
-        <td>O(1)</td>
-    </tr>
-    <tr>
-        <td>Deletion</td>
-        <td>Θ(1)</td>
-        <td>O(1)</td>
-    </tr>
-</table>
+| Operation | Average | Worst |
+| --- | --- | --- |
+| Access | Θ(n) | O(n) |
+| Search | Θ(n) | O(n) |
+| Insertion | Θ(1) | O(1) |
+| Deletion | Θ(1) | O(1) |
