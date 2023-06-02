@@ -19,7 +19,7 @@ function ReadmePreview({ readmePath }) {
     readmeDiv.innerHTML = marked.parse(readme);
   }, [readme]);
 
-  return (
+  if(readmeRawUrl !== "https://raw.githubusercontent.com/Kamran1819G/Algopedia/main")return (
     <Container fluid="lg">
       <Row>
         <Col lg="12">
