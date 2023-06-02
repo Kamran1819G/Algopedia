@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-
+import '../css/ReportIssue.css'
 import { Container, Row, Col, Button, InputGroup, Form } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
@@ -23,7 +23,7 @@ function ReportIssue() {
     <Helmet>
       <title>Report Issue | Algopedia</title>
     </Helmet>
-    <section className="section">
+    <section className="report-section">
       <Container fluid="lg">
         <Row>
           <Col lg="12" className="mx-auto">

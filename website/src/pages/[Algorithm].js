@@ -74,7 +74,7 @@ function Algorithm({ data }) {
           <div className="algorithm-page">
             <Tab.Container defaultActiveKey="java_lang">
               <Row>
-                <Col sm={3}>
+                <Col sm={12} lg={3}>
                   <Nav variant="pills" className="flex-column">
                     <Nav.Item>
                       <Nav.Link eventKey="c_lang">C</Nav.Link>
@@ -98,7 +98,7 @@ function Algorithm({ data }) {
                 </Col>
                 <Col lg={9} sm={12}>
                   <Tab.Content>
-                    <h4>Category: {data.category}</h4>
+                    <h2 className="mt-4">Category: {data.category}</h2>
                     <h1>{data.name}</h1>
                     <Tab.Pane eventKey="c_lang">
                       <CodePreview codePath={data.c_path} language="c" />
