@@ -336,5 +336,13 @@
     "category": "Programs",
     "readme": "",
     "c_path": "/Algorithms/Programs/C/FactorialRecursion.c"
+  },
+  {
+    "title": "TicTacToe",
+    "name": "Tic Tac Toe",
+    "url": "/algorithm/TicTacToe",
+    "category": "Programs",
+    "readme": "",
+    "python_path": "/Algorithms/Programs/Python/TicTacToe.py"
   }
 ]
