@@ -131,7 +131,7 @@ function Algorithm({ data }) {
                 </Col>
               </Row>
             </Tab.Container>
-            <ReadmePreview readmePath={data.readme} readmeTitle="Learn about this algorithm:"/>
+            <ReadmePreview readmePath={data.readme}/>
           </div>
         </Col>
       </Row>
