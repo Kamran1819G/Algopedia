@@ -15,34 +15,39 @@ function ReadmePreview({ readmePath }) {
   }, [readmeRawUrl]);
 
   useEffect(() => {
-    const readmeDiv = document.getElementById("readme");
-    readmeDiv.innerHTML = marked.parse(readme);
-  }, [readme]);
+    if (
+      "https://raw.githubusercontent.com/Kamran1819G/Algopedia/main" !==
+      readmeRawUrl
+    ) {
+      const readmeDiv = document.getElementById("readme");
+      readmeDiv.innerHTML = marked.parse(readme);
+    }
+  }, [readme, readmeRawUrl]);
 
-  if(readmeRawUrl !== "https://raw.githubusercontent.com/Kamran1819G/Algopedia/main")return (
-    <Container fluid="lg">
-      <Row>
-        <Col lg="12">
-          <div className="readme-preview">
-            <div id="readme"></div>
-          </div>
-          <div className="d-flex justify-content-end">
-            <a
-              className="btn btn-primary"
-              href={
-                "https://github.com/Kamran1819G/Algopedia/tree/main" +
-                readmePath
-              }
-              rel="noreferrer"
-              target="_blank"
-            >
-              <i className="bi bi-git"></i> Make a contribution
-            </a>
-          </div>
-        </Col>
-      </Row>
-    </Container>
-  );
+    return (
+      <Container fluid="lg">
+        <Row>
+          <Col lg="12">
+            <div className="readme-preview">
+              <div id="readme"></div>
+            </div>
+            <div className="d-flex justify-content-end">
+              <a
+                className="btn btn-primary"
+                href={
+                  "https://github.com/Kamran1819G/Algopedia/tree/main" +
+                  readmePath
+                }
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i className="bi bi-git"></i> Make a contribution
+              </a>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    );
 }
 
 export default ReadmePreview;
