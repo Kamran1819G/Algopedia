@@ -301,6 +301,97 @@
     "csharp_path": ""
   },
   {
+    "title": "dijkstra",
+    "name": "Dijkstra's Algorithm",
+    "url": "/algorithm/dijkstra",
+    "category": "Graphs",
+    "readme": "/Algorithms/Graphs/Notes/Dijkstra.md",
+    "c_path": "/Algorithms/Graphs/C/Dijkstra.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Graphs/Python/Dijkstra.py",
+    "javascript_path": "",
+    "csharp_path": ""
+  },
+  {
+    "title": "bellman-ford",
+    "name": "Bellman Ford Algorithm",
+    "url": "/algorithm/bellman-ford",
+    "category": "Graphs",
+    "readme": "/Algorithms/Graphs/Notes/BellmanFord.md",
+    "c_path": "/Algorithms/Graphs/C/BellmanFord.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Graphs/Python/BellmanFord.py",
+    "javascript_path": "",
+    "csharp_path": ""
+  },
+  {
+    "title": "kruskal",
+    "name": "Kruskal's Algorithm",
+    "url": "/algorithm/kruskal",
+    "category": "Graphs",
+    "readme": "/Algorithms/Graphs/Notes/KruskalMST.md",
+    "c_path": "/Algorithms/Graphs/C/KruskalMST.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Graphs/Python/KruskalMST.py",
+    "javascript_path": "",
+    "csharp_path": ""
+  },
+  {
+    "title": "prims",
+    "name": "Prim's Algorithm",
+    "url": "/algorithm/prims",
+    "category": "Graphs",
+    "readme": "/Algorithms/Graphs/Notes/PrimsMST.md",
+    "c_path": "/Algorithms/Graphs/C/PrimsMST.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Graphs/Python/PrimsMST.py",
+    "javascript_path": "",
+    "csharp_path": ""
+  },
+  {
+    "title": "naive-string-matching",
+    "name": "Naive String Matching",
+    "url": "/algorithm/naive-string-matching",
+    "category": "Graphs",
+    "readme": "/Algorithms/Graphs/Notes/NaiveStringMatch.md",
+    "c_path": "/Algorithms/Graphs/C/NaiveStringMatch.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Graphs/Python/NaiveStringMatch.py",
+    "javascript_path": "",
+    "csharp_path": ""
+  },
+  {
+    "title": "rabin-karp",
+    "name": "Rabin Karp Algorithm",
+    "url": "/algorithm/rabin-karp",
+    "category": "Graphs",
+    "readme": "/Algorithms/Graphs/Notes/RabinKarp.md",
+    "c_path": "/Algorithms/Graphs/C/RabinKarp.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Graphs/Python/RabinKarp.py",
+    "javascript_path": "",
+    "csharp_path": ""
+  },
+  {
+    "title": "knuth-morris-pratt",
+    "name": "Knuth Morris Pratt Algorithm",
+    "url": "/algorithm/knuth-morris-pratt",
+    "category": "Graphs",
+    "readme": "/Algorithms/Graphs/Notes/KnuthMorrisPratt.md",
+    "c_path": "/Algorithms/Graphs/C/KnuthMorrisPratt.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Graphs/Python/KnuthMorrisPratt.py",
+    "javascript_path": "",
+    "csharp_path": ""
+  },
+  {
     "title": "water-jug-problem",
     "name": "Water Jug Problem",
     "url": "/algorithm/water-jug-problem",
@@ -319,7 +410,12 @@
     "url": "/algorithm/data-structures-menu-program",
     "category": "Programs",
     "readme": "",
-    "python_path": "/Algorithms/Programs/Python/DataStructures.py"
+    "c_path": "",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Programs/Python/DataStructures.py",
+    "javascript_path": "",
+    "csharp_path": ""
   },
   {
     "title": "factorial-program",
@@ -327,7 +423,12 @@
     "url": "/algorithm/factorial",
     "category": "Programs",
     "readme": "",
-    "c_path": "/Algorithms/Programs/C/Factorial.c"
+    "c_path": "/Algorithms/Programs/C/Factorial.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "",
+    "javascript_path": "",
+    "csharp_path": ""
   },
   {
     "title": "recursion-factorial",
@@ -335,7 +436,12 @@
     "url": "/algorithm/recursion-factorial",
     "category": "Programs",
     "readme": "",
-    "c_path": "/Algorithms/Programs/C/FactorialRecursion.c"
+    "c_path": "/Algorithms/Programs/C/FactorialRecursion.c",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "",
+    "javascript_path": "",
+    "csharp_path": ""
   },
   {
     "title": "TicTacToe",
@@ -343,6 +449,11 @@
     "url": "/algorithm/TicTacToe",
     "category": "Programs",
     "readme": "",
-    "python_path": "/Algorithms/Programs/Python/TicTacToe.py"
+    "c_path": "",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "/Algorithms/Programs/Python/TicTacToe.py",
+    "javascript_path": "",
+    "csharp_path": ""
   }
 ]
