@@ -75,7 +75,7 @@
     "java_path": "/DataStructures/Java/Stack.java",
     "python_path": "/DataStructures/Python/Stack.py",
     "csharp_path": "",
-    "typescript_path": ""
+    "typescript_path": "/DataStructures/TypeScript/Stack.ts"
   },
   {
     "title": "stack-using-linkedlist",
@@ -88,7 +88,7 @@
     "java_path": "/DataStructures/Java/StackUsingLinkedList.java",
     "python_path": "",
     "csharp_path": "",
-    "typescript_path": ""
+    "typescript_path": "/DataStructures/TypeScript/StackUsingLinkedList.ts"
   },
   {
     "title": "queue",
