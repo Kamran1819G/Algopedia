@@ -114,7 +114,7 @@
     "java_path": "/DataStructures/Java/QueueUsingLinkedList.java",
     "python_path": "",
     "csharp_path": "",
-    "typescript_path": ""
+    "typescript_path": "/DataStructures/TypeScript/QueueUsingLinkedList.ts"
   },
   {
     "title": "circular-queue",
