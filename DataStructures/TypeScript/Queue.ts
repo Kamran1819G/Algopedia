@@ -52,7 +52,7 @@ export class Queue {
     if (this.isEmpty()) throw new Error("Cannot display an empty queue");
 
     for (let i = 0; i <= this.rearIndex; i++) {
-      console.log(this.elements[i]);
+      console.log(`Current data: ${this.elements[i]}`);
     }
   }
 }
