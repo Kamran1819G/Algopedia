@@ -92,6 +92,9 @@ function Algorithm({ data }) {
                       <Nav.Link eventKey="javascript_lang">JavaScript</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
+                      <Nav.Link eventKey="typescript_lang">TypeScript</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
                       <Nav.Link eventKey="csharp_lang">C#</Nav.Link>
                     </Nav.Item>
                   </Nav>
@@ -119,6 +122,12 @@ function Algorithm({ data }) {
                       <CodePreview
                         codePath={data.javascript_path}
                         language="javascript"
+                      />
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="typescript_lang">
+                      <CodePreview
+                        codePath={data.typescript_path}
+                        language="typescript"
                       />
                     </Tab.Pane>
                     <Tab.Pane eventKey="csharp_lang">
