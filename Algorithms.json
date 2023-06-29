@@ -219,7 +219,7 @@
     "python_path": "",
     "javascript_path": "",
     "csharp_path": "/Algorithms/Searches/Csharp/BinarySearch.cs",
-    "typescript_path": ""
+    "typescript_path": "/Algorithms/Searches/TypeScript/BinarySearch.ts"
   },
   {
     "title": "linear-search",
