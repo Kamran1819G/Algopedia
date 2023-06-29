@@ -9,7 +9,8 @@
     "cpp_path": "",
     "java_path": "",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "2d-array",
@@ -21,7 +22,8 @@
     "cpp_path": "",
     "java_path": "",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "linked-list",
@@ -33,7 +35,8 @@
     "cpp_path": "",
     "java_path": "",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "singly-linked-list",
@@ -45,7 +48,8 @@
     "cpp_path": "",
     "java_path": "/DataStructures/Java/SinglyLinkedList.java",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": "/DataStructures/TypeScript/SinglyLinkedList.ts"
   },
   {
     "title": "doubly-linked-list",
@@ -57,7 +61,8 @@
     "cpp_path": "",
     "java_path": "/DataStructures/Java/DoublyLinkedList.java",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "stack",
@@ -69,7 +74,8 @@
     "cpp_path": "",
     "java_path": "/DataStructures/Java/Stack.java",
     "python_path": "/DataStructures/Python/Stack.py",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "stack-using-linkedlist",
@@ -81,7 +87,8 @@
     "cpp_path": "",
     "java_path": "/DataStructures/Java/StackUsingLinkedList.java",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "queue",
@@ -93,7 +100,8 @@
     "cpp_path": "",
     "java_path": "/DataStructures/Java/Queue.java",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "queue-using-linkedlist",
@@ -105,7 +113,8 @@
     "cpp_path": "",
     "java_path": "/DataStructures/Java/QueueUsingLinkedList.java",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "circular-queue",
@@ -117,7 +126,8 @@
     "cpp_path": "",
     "java_path": "",
     "python_path": "",
-    "csharp_path": ""
+    "csharp_path": "",
+    "typescript_path": ""
   },
   {
     "title": "bubble-sort",
@@ -235,7 +245,8 @@
     "python_path": "/Algorithms/Graphs/Python/BreadthFirstSearch.py",
     "javascript_path": "",
     "csharp_path": ""
-  },{
+  },
+  {
     "title": "depth-first-search",
     "name": "Depth First Search (DFS)",
     "url": "/algorithm/depth-first-search",
