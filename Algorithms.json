@@ -101,7 +101,7 @@
     "java_path": "/DataStructures/Java/Queue.java",
     "python_path": "",
     "csharp_path": "",
-    "typescript_path": ""
+    "typescript_path": "/DataStructures/TypeScript/Queue.ts"
   },
   {
     "title": "queue-using-linkedlist",
