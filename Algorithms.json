@@ -78,6 +78,19 @@
     "typescript_path": "/DataStructures/TypeScript/Stack.ts"
   },
   {
+    "title": "monotonic-stack",
+    "name": "Monotonic Stack",
+    "url": "/algorithm/monotonic-stack",
+    "category": "Data Structures",
+    "readme": "/DataStructures/Notes/MonotonicStack.md",
+    "c_path": "",
+    "cpp_path": "",
+    "java_path": "/",
+    "python_path": "/DataStructures/Python/MonotonicStack.py",
+    "csharp_path": "",
+    "typescript_path": "/DataStructures/TypeScript/MonotonicStack.ts"
+  },
+  {
     "title": "stack-using-linkedlist",
     "name": "Stack Using Linked List",
     "url": "/algorithm/stack-using-linkedlist",
