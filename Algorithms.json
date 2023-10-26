@@ -164,7 +164,7 @@
     "c_path": "/Algorithms/Sorts/C/InsertionSort.c",
     "cpp_path": "/Algorithms/Sorts/Cpp/InsertionSort.cpp",
     "java_path": "/Algorithms/Sorts/Java/InsertionSort.java",
-    "python_path": "",
+    "python_path": "/Algorithms/Sorts/Python/InsertionSort.py",
     "javascript_path": "/Algorithms/Sorts/JavaScript/InsertionSort.js",
     "csharp_path": "/Algorithms/Sorts/Csharp/InsertionSort.cs"
   },
@@ -203,7 +203,7 @@
     "c_path": "/Algorithms/Sorts/C/SelectionSort.c",
     "cpp_path": "/Algorithms/Sorts/Cpp/SelectionSort.cpp",
     "java_path": "/Algorithms/Sorts/Java/SelectionSort.java",
-    "python_path": "",
+    "python_path": "/Algorithms/Sorts/Python/SelectionSort.py",
     "javascript_path": "/Algorithms/Sorts/JavaScript/SelectionSort.js",
     "csharp_path": "/Algorithms/Sorts/Csharp/SelectionSort.cs"
   },
@@ -388,7 +388,7 @@
     "cpp_path": "",
     "java_path": "",
     "python_path": "/Algorithms/Graphs/Python/NaiveStringMatch.py",
-    "javascript_path": "",
+    "javascript_path": "/Algorithms/Graphs/JavaScript/NaiveStringMatch.js",
     "csharp_path": ""
   },
   {
