@@ -481,5 +481,18 @@
     "python_path": "/Algorithms/Programs/Python/TicTacToe.py",
     "javascript_path": "",
     "csharp_path": ""
+  },
+  {
+    "title": "validAnagram",
+    "name": "Valid Anagram",
+    "url": "/algorithm/validAnagram",
+    "category": "Programs",
+    "readme": "",
+    "c_path": "",
+    "cpp_path": "",
+    "java_path": "",
+    "python_path": "",
+    "javascript_path": "/Algorithms/Programs/JavaScript/validAnagram.js",
+    "csharp_path": ""
   }
 ]
