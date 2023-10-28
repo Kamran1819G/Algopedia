@@ -243,7 +243,7 @@
     "c_path": "/Algorithms/Searches/C/LinearSearch.c",
     "cpp_path": "",
     "java_path": "/Algorithms/Searches/Java/LinearSearch.java",
-    "python_path": "",
+    "python_path": "/Algorithms/Searches/Python/LinearSearch.py",
     "javascript_path": "",
     "csharp_path": "/Algorithms/Searches/Csharp/LinearSearch.cs",
     "typescript_path": "/Algorithms/Searches/TypeScript/LinearSearch.ts"
@@ -452,7 +452,7 @@
     "c_path": "/Algorithms/Programs/C/Factorial.c",
     "cpp_path": "",
     "java_path": "",
-    "python_path": "",
+    "python_path": "/Algorithms/Programs/Python/factorial.py",
     "javascript_path": "/Algorithms/Programs/JavaScript/factorial.js",
     "csharp_path": ""
   },
@@ -465,7 +465,7 @@
     "c_path": "/Algorithms/Programs/C/FactorialRecursion.c",
     "cpp_path": "",
     "java_path": "",
-    "python_path": "",
+    "python_path": "/Algorithms/Programs/Python/factorial_recursion.py",
     "javascript_path": "/Algorithms/Programs/JavaScript/FactorialRecursion.js",
     "csharp_path": ""
   },
